@@ -27,3 +27,4 @@ if [ "$DISK_USAGE" -gt 80 ]; then
     echo "[${TIMESTAMP}] WARNING: Low disk space! Usage is at ${DISK_USAGE}%" >> "$LOG_FILE"
 fi
 
+echo "[${TIMESTAMP}] Automation script lifecycle complete." >> "$LOG_FILE"
